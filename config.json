@@ -1,0 +1,25 @@
+{
+  "imageName": "avatar",
+  "images": {
+    "avatar": {
+      "extension": ".png",
+      "depth_extension": ".jpg",
+      "depthMultiplier": 0.02
+    },
+    "city": {
+      "extension": ".png",
+      "depth_extension": ".jpg",
+      "depthMultiplier": 0.20
+    },
+    "city2": {
+      "extension": ".png",
+      "depth_extension": ".jpg",
+      "depthMultiplier": 0.05
+    },
+    "mountains": {
+      "extension": ".png",
+      "depth_extension": ".jpg",
+      "depthMultiplier": 0.04
+    }
+  }
+}
