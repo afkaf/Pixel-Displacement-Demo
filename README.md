@@ -3,7 +3,7 @@
 
 # Pixel-Displacement-Demo
 
-This project is an interactive demonstration of a 3D parallax effect using pixel displacement based on depth maps. It's built with [Three.js](https://threejs.org/) and [GSAP](https://greensock.com/gsap/), two powerful libraries for creating rich, interactive web experiences. This demo showcases the code I wrote for creating immersive website backgrounds using this effect.
+This project is an interactive demonstration of a 3D parallax effect using pixel displacement based on depth maps. It's built with [Three.js](https://threejs.org/) and [GSAP](https://greensock.com/gsap/), two powerful libraries for creating rich, interactive web experiences. This demo showcases the code I wrote for creating immersive website backgrounds using this effect. It has not been optimized for touch devices yet.
 
 ## Features
 
@@ -27,6 +27,6 @@ This demo is designed to showcase the code for creating website backgrounds usin
 
 ## Future Enhancements
 
-I may improve this project over time. Future enhancements may include more image options, additional controls for adjusting the depth effect, and performance optimizations for smoother animations.
+I may improve this project over time. Future enhancements may include optimizations for touch devices, more image options, additional controls for adjusting the depth effect, and performance optimizations for smoother animations.
 
 ---
