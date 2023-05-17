@@ -26,7 +26,7 @@ fetch('config.json' + '?v=' + Date.now()).then(resp => resp.json()).then(config 
     const depthTexture = loader.load('images/'+imageName + '_depth' + config.images[imageName].depth_extension);
 
     Promise.all([
-      fetch('vertexShader.glsl' + '?v=' + Date.now() + '?v=' + Date.now()).then(resp => resp.text()),
+      fetch('vertexShader.glsl' + '?v=' + Date.now()).then(resp => resp.text()),
       fetch('fragmentShader.glsl' + '?v=' + Date.now()).then(resp => resp.text())
     ]).then(([vertexShader, fragmentShader]) => {
       const aspectRatio = window.innerWidth / window.innerHeight;
@@ -59,7 +59,7 @@ fetch('config.json' + '?v=' + Date.now()).then(resp => resp.json()).then(config 
     loadImage(selectElement.value);
   });
 
-  // ... existing code to handle mouse movement and window resize events, and animate the scene ...
+  // Code to handle mouse movement and window resize events, and animate the scene
   document.addEventListener('mousemove', event => {
     const mouseX = (event.clientX / window.innerWidth) - 0.5;
     const mouseY = (event.clientY / window.innerHeight) - 0.5;
